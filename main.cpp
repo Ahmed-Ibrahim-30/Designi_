@@ -8,7 +8,6 @@ int main() {
 
     SimpleApp app;
 
-    cout<<"Love you Nourrra - \n";
     CROW_ROUTE(app , "/test").methods(crow::HTTPMethod::GET)([&](const crow::request&req)
     {
 //        auto jsonData = crow::json::load(req.body);
